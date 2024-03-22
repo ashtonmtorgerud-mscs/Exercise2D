@@ -1,0 +1,600 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>walletwellness</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css">
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+</head>
+
+<body>
+
+
+    <div class="m-0 p-0" style="background-color: #33ccff;">
+        <div class="container">
+            <div class="navbar navbar-expand-lg navbar-dark" style="background-color: #33ccff">
+                <a class="navbar-brand text-shadow" href="#">
+                    <h3 class="bold" style="text-shadow: 2px 2px black;"><strong>WalletWellness</strong></h3>
+                </a>
+                <i class="bi bi-search ms-auto lead pt-3" style="text-shadow: 1px 1px black;"></i>
+            </div>
+        </div>
+    </div>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark mt-0">
+        <div class="container">
+
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav">
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                            data-bs-toggle="dropdown" aria-expanded="false">
+                            Breakfasts
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <li><a class="dropdown-item" href="#">Fluffy Pancakes</a></li>
+                            <li><a class="dropdown-item" href="#">Sausage and Egg Sandwiches</a></li>
+                            <li><a class="dropdown-item" href="#">French Toast</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                            data-bs-toggle="dropdown" aria-expanded="false">
+                            Lunches
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <li><a class="dropdown-item" href="#">Chicken Caesar Pasta Salad</a></li>
+                            <li><a class="dropdown-item" href="#">Taco Salad</a></li>
+                            <li><a class="dropdown-item" href="#">Big Mac Salad</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                            data-bs-toggle="dropdown" aria-expanded="false">
+                            Dinners
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <li><a class="dropdown-item" href="#">Taco Spaghetti</a></li>
+                            <li><a class="dropdown-item" href="#">Mexican Beef 'N Rice Skillet</a></li>
+                            <li><a class="dropdown-item" href="#">Tricolore Skillet Lasagna</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                            data-bs-toggle="dropdown" aria-expanded="false">
+                            Snacks
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <li><a class="dropdown-item" href="#">Greek yogurt and mixed berries</a></li>
+                            <li><a class="dropdown-item" href="#">Protein smoothie</a></li>
+                            <li><a class="dropdown-item" href="#">Hard-boiled eggs</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                            data-bs-toggle="dropdown" aria-expanded="false">
+                            Desserts
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <li><a class="dropdown-item" href="#">Peanut Butter Cup Protein Bars</a></li>
+                            <li><a class="dropdown-item" href="#">Chocolate Chip Pecan Blondies</a></li>
+                            <li><a class="dropdown-item" href="#">Monster Cookie Energy Bites</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link " href="#">Articles</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" data-bs-toggle="modal" data-bs-target="#myModal" href="#">Sign Up</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Carousel -->
+    <div id="demo" class="carousel slide" data-bs-ride="carousel">
+
+
+
+
+        <!-- Indicators/dots -->
+        <div class="carousel-indicators">
+
+            <button type="button" data-bs-target="#demo" data-bs-slide-to="0" class="active"></button>
+            <button type="button" data-bs-target="#demo" data-bs-slide-to="1"></button>
+            <button type="button" data-bs-target="#demo" data-bs-slide-to="2"></button>
+        </div>
+
+
+
+        <!-- The slideshow/carousel -->
+        <div class="carousel-inner bg-image"
+            style="background-image: url('https://images.pexels.com/photos/1080721/pexels-photo-1080721.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1'); height: auto; min-height: 100vh; background-size: cover; background-position: center;">
+
+            <h1 class="mt-5 text-center text-warning text-shadow bg-light px-5 shadow"
+            style="text-shadow: 2px 2px black; font-size: 350%;"><b>Top Articles</b></h1>
+            <hr class="m-0">
+
+
+            <div class="container">
+
+
+
+                <div class="carousel-item active mb-5">
+
+                    <div class="row mb-5">
+
+                        <div class="col-md-4 col-sm-12 mt-5 mb-5">
+
+                            <div class="card pb-2 shadow rounded">
+
+
+                                <img src="https://images.pexels.com/photos/8992926/pexels-photo-8992926.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+                                    alt="Fried Eggs" class="rounded-top">
+
+                                <div class="card-header" style="overflow:hidden;">
+                                    <p class="m-2 m4 h4">How to Make Perfect Eggs Every Time</p>
+                                </div>
+
+                                <hr class="my-1">
+                                <div class="row p-4 align-items-center text-center">
+                                    <div class="col-12">
+                                        <img class="rounded-circle p-0"
+                                            src="https://randomuser.me/api/portraits/men/22.jpg" alt=""
+                                            style="width: 80px; height: 80px;">
+
+
+                                        <p class="mx-2 h4" style="color: orange;">Jack Mann</p>
+                                        <p class="mx-2 h6">Passionate about using my culinary skills to make a
+                                            difference in the community.</p>
+                                        <div class="card-body text-center">
+                                            <a href="#"><i class="bi bi-twitter text-dark mx-1"></i></a>
+                                            <a href="#"><i class="bi bi-facebook text-dark mx-1"></i></a>
+                                            <a href="#"><i class="bi bi-linkedin text-dark mx-1"></i></a>
+                                            <a href="#"><i class="bi bi-instagram text-dark mx-1"></i></a>
+                                        </div>
+                                    </div>
+                                </div>
+
+                            </div>
+                        </div>
+
+                        <div class="col-md-4 col-sm-12 mt-5 mb-5">
+                            <div class="card pb-2 shadow rounded">
+
+
+                                <img src="https://images.pexels.com/photos/892649/pexels-photo-892649.jpeg?auto=compress&cs=tinysrgb&w=600"
+                                    alt="Fried Eggs" class="rounded-top">
+
+                                <div class="card-header" style="overflow:hidden;">
+                                    <p class="m-2 m4 h4">Adding More Fruit to Your Daily Diet</p>
+                                </div>
+
+                                <hr class="my-1">
+                                <div class="row p-4 align-items-center text-center">
+                                    <div class="col-12">
+                                        <img class="rounded-circle p-0"
+                                            src="https://randomuser.me/api/portraits/women/18.jpg" alt=""
+                                            style="width: 80px; height: 80px;">
+
+
+                                        <p class="mx-2 h4" style="color: orange;">Jennie Stu</p>
+                                        <p class="mx-2 h6">Striving for better nutrition in our daily lives.</p>
+                                        <div class="card-body text-center">
+                                            <a href="#"><i class="bi bi-twitter text-dark mx-1"></i></a>
+                                            <a href="#"><i class="bi bi-facebook text-dark mx-1"></i></a>
+                                            <a href="#"><i class="bi bi-linkedin text-dark mx-1"></i></a>
+                                            <a href="#"><i class="bi bi-instagram text-dark mx-1"></i></a>
+                                        </div>
+                                    </div>
+                                </div>
+
+                            </div>
+                        </div>
+
+                        <div class="col-md-4 col-sm-12 mt-5 mb-5">
+                            <div class="card pb-2 shadow rounded">
+
+
+                                <img src="https://images.pexels.com/photos/1055270/pexels-photo-1055270.jpeg?auto=compress&cs=tinysrgb&w=6000"
+                                    alt="Fried Eggs" class="rounded-top">
+
+                                <div class="card-header" style="overflow:hidden;">
+                                    <p class="m-2 m4 h4">Balancing sweets with health</p>
+                                </div>
+
+                                <hr class="my-1">
+                                <div class="row p-4 align-items-center text-center">
+                                    <div class="col-12">
+                                        <img class="rounded-circle p-0"
+                                            src="https://randomuser.me/api/portraits/women/18.jpg" alt=""
+                                            style="width: 80px; height: 80px;">
+
+
+                                        <p class="mx-2 h4" style="color: orange;">Jennie Stu</p>
+                                        <p class="mx-2 h6">Striving for better nutrition in our daily lives.</p>
+                                        <div class="card-body text-center">
+                                            <a href="#"><i class="bi bi-twitter text-dark mx-1"></i></a>
+                                            <a href="#"><i class="bi bi-facebook text-dark mx-1"></i></a>
+                                            <a href="#"><i class="bi bi-linkedin text-dark mx-1"></i></a>
+                                            <a href="#"><i class="bi bi-instagram text-dark mx-1"></i></a>
+                                        </div>
+                                    </div>
+                                </div>
+
+                            </div>
+                        </div>
+
+                    </div>
+
+
+                </div>
+
+                <div class="carousel-item mb-5">
+
+                    <div class="row mb-5">
+
+                        <div class="col-md-4 col-sm-12 mt-5 mb-5">
+
+                            <div class="card pb-2 shadow rounded">
+
+
+                                <img src="https://images.pexels.com/photos/1346347/pexels-photo-1346347.jpeg?auto=compress&cs=tinysrgb&w=600"
+                                    alt="Fried Eggs" class="rounded-top">
+
+                                <div class="card-header" style="overflow:hidden;">
+                                    <p class="m-2 m4 h4">How to Get More Veggies in Your Daily Life</p>
+                                </div>
+
+                                <hr class="my-1">
+                                <div class="row p-4 align-items-center text-center">
+                                    <div class="col-12">
+                                        <img class="rounded-circle p-0"
+                                            src="https://randomuser.me/api/portraits/men/15.jpg" alt=""
+                                            style="width: 80px; height: 80px;">
+
+
+                                        <p class="mx-2 h4" style="color: orange;">Derren Stevens</p>
+                                        <p class="mx-2 h6">Developing solutions to financial and culinary problems.</p>
+                                        <div class="card-body text-center">
+                                            <a href="#"><i class="bi bi-twitter text-dark mx-1"></i></a>
+                                            <a href="#"><i class="bi bi-facebook text-dark mx-1"></i></a>
+                                            <a href="#"><i class="bi bi-linkedin text-dark mx-1"></i></a>
+                                            <a href="#"><i class="bi bi-instagram text-dark mx-1"></i></a>
+                                        </div>
+                                    </div>
+                                </div>
+
+                            </div>
+                        </div>
+
+                        <div class="col-md-4 col-sm-12 mt-5 mb-5">
+                            <div class="card pb-2 shadow rounded">
+
+
+                                <img src="https://images.pexels.com/photos/102104/pexels-photo-102104.jpeg?auto=compress&cs=tinysrgb&w=600"
+                                    alt="Fried Eggs" class="rounded-top">
+
+                                <div class="card-header" style="overflow:hidden;">
+                                    <p class="m-2 m4 h4">How to scare a doctor</p>
+                                </div>
+
+                                <hr class="my-1">
+                                <div class="row p-4 align-items-center text-center">
+                                    <div class="col-12">
+                                        <img class="rounded-circle p-0"
+                                            src="https://randomuser.me/api/portraits/men/28.jpg" alt="Jack Colf"
+                                            style="width: 80px; height: 80px;">
+
+
+                                        <p class="mx-2 h4" style="color: orange;">David Davidson</p>
+                                        <p class="mx-2 h6">I don't work here, I just hacked the site and I'm seeing how long it takes them to notice.</p>
+                                        <div class="card-body text-center">
+                                            <a href="#"><i class="bi bi-twitter text-dark mx-1"></i></a>
+                                            <a href="#"><i class="bi bi-facebook text-dark mx-1"></i></a>
+                                            <a href="#"><i class="bi bi-linkedin text-dark mx-1"></i></a>
+                                            <a href="#"><i class="bi bi-instagram text-dark mx-1"></i></a>
+                                        </div>
+                                    </div>
+                                </div>
+
+                            </div>
+                        </div>
+
+                        <div class="col-md-4 col-sm-12 mt-5 mb-5">
+                            <div class="card pb-2 shadow rounded">
+
+
+                                <img src="https://images.pexels.com/photos/2955816/pexels-photo-2955816.jpeg?auto=compress&cs=tinysrgb&w=600"
+                                    alt="Fried Eggs" class="rounded-top">
+
+                                <div class="card-header" style="overflow:hidden;">
+                                    <p class="m-2 m4 h4">Making Pies Healthy and Delicious</p>
+                                </div>
+
+                                <hr class="my-1">
+                                <div class="row p-4 align-items-center text-center">
+                                    <div class="col-12">
+                                        <img class="rounded-circle p-0"
+                                            src="https://randomuser.me/api/portraits/women/25.jpg" alt=""
+                                            style="width: 80px; height: 80px;">
+
+
+                                        <p class="mx-2 h4" style="color: orange;">Jessica Johnes</p>
+                                        <p class="mx-2 h6">Nutritionist, writer, santa denier, sometimes eats cheese.</p>
+                                        <div class="card-body text-center">
+                                            <a href="#"><i class="bi bi-twitter text-dark mx-1"></i></a>
+                                            <a href="#"><i class="bi bi-facebook text-dark mx-1"></i></a>
+                                            <a href="#"><i class="bi bi-linkedin text-dark mx-1"></i></a>
+                                            <a href="#"><i class="bi bi-instagram text-dark mx-1"></i></a>
+                                        </div>
+                                    </div>
+                                </div>
+
+                            </div>
+                        </div>
+
+                    </div>
+
+
+                </div>
+
+
+            </div>
+
+        </div>
+
+        <!-- Left and right controls/icons -->
+        <button class="carousel-control-prev " type="button" data-bs-target="#demo" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon bg-info py-5 rounded"></span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#demo" data-bs-slide="next">
+            <span class="carousel-control-next-icon bg-info py-5 rounded"></span>
+        </button>
+    </div>
+
+
+
+    <div class="bg-muted p-5 mb-5" style="display: block;">
+        <div class="container bg-white" style="display: block;">
+            <h3>About Us</h3>
+            <p>At WalletWellness, we are a non-profit organization dedicated to providing cost-effective recipes that
+                promote overall well-being. Our team consists of culinary experts, financial planners, and nutritionists
+                who collaborate to ensure our recipes offer a harmonious balance of affordability, nutrition, and
+                delicious taste. Additionally, we prioritize efficiency and simplicity in our cooking methods.</p>
+        </div>
+    </div>
+
+
+    <div class="background-image mt-5" style="background-image: url(https://images.pexels.com/photos/349610/pexels-photo-349610.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1); background-size: cover;">
+        <div class="container">
+
+            <div class="mt-5 text-center"><h2 class="pt-5">Top recipes</h2></div>
+            <Hr></Hr>
+            <div class="row text-center">
+                <div class="col-lg-1 col-md-0"></div>
+                <div class="col-lg-2 col-md-4 col-sm-6 mb-5">
+                    <div class="card" style="width:auto; min-height: 320px;">
+                        <img class="card-img-top"
+                            src="https://images.pexels.com/photos/2955819/pexels-photo-2955819.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+                            alt="Card image" style="width:100%">
+                        <div class="card-body">
+                            <h4 class="card-title">Best Vegetarian Burritos</h4>
+                            <p class="card-text">Lunches</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-2 col-md-4 col-sm-6 mb-5">
+                    <div class="card" style="width:auto; min-height: 320px;">
+                        <img class="card-img-top"
+                            src="https://images.pexels.com/photos/2613471/pexels-photo-2613471.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+                            alt="Card image" style="width:100%">
+                        <div class="card-body">
+                            <h4 class="card-title">Light & Fluffy Crepes</h4>
+                            <p class="card-text">Breakfasts</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-2 col-md-4 col-sm-6 mb-5">
+                    <div class="card" style="width:auto; min-height: 320px;">
+                        <img class="card-img-top"
+                            src="https://images.pexels.com/photos/7736775/pexels-photo-7736775.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+                            alt="Card image" style="width:100%">
+                        <div class="card-body">
+                            <h4 class="card-title">Classic Club Sandwiches</h4>
+                            <p class="card-text">Lunches</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-2 col-md-4 col-sm-6 mb-5">
+                    <div class="card" style="width:auto; min-height: 320px;">
+                        <img class="card-img-top"
+                            src="https://images.pexels.com/photos/4929720/pexels-photo-4929720.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+                            alt="Card image" style="width:100%">
+                        <div class="card-body">
+                            <h4 class="card-title">Grilled Chicken & Vegetables</h4>
+                            <p class="card-text">Dinners</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-2 col-md-4 col-sm-6 mb-5">
+                    <div class="card" style="width:auto; min-height: 320px;">
+                        <img class="card-img-top"
+                            src="https://images.pexels.com/photos/12737659/pexels-photo-12737659.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+                            alt="Card image" style="width:100%">
+                        <div class="card-body">
+                            <h4 class="card-title">Creamy Mushroom Soup</h4>
+                            <p class="card-text">Dinners</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-1 col-md-0 col-sm-0"></div>
+
+                <div class="col-lg-1 col-md-0 col-sm-0"></div>
+                <div class="col-lg-2 col-md-4 col-sm-6 mb-5">
+                    <div class="card" style="width:auto; min-height: 320px;">
+                        <img class="card-img-top"
+                            src="https://images.pexels.com/photos/8992918/pexels-photo-8992918.jpeg"
+                            alt="Card image" style="width:100%">
+                        <div class="card-body">
+                            <h4 class="card-title">Friend Pancakes with Filling</h4>
+                            <p class="card-text">Breakfasts</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-2 col-md-4 col-sm-6 mb-5">
+                    <div class="card" style="width:auto; min-height: 320px;">
+                        <img class="card-img-top"
+                            src="https://images.pexels.com/photos/7736773/pexels-photo-7736773.jpeg"
+                            alt="Card image" style="width:100%">
+                        <div class="card-body">
+                            <h4 class="card-title">Veggie Fish Sandwiches</h4>
+                            <p class="card-text">Lunches</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-2 col-md-4 col-sm-6 mb-5">
+                    <div class="card" style="width:auto; min-height: 320px;">
+                        <img class="card-img-top"
+                            src="https://images.pexels.com/photos/14686443/pexels-photo-14686443.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+                            alt="Card image" style="width:100%">
+                        <div class="card-body">
+                            <h4 class="card-title">Air-Friend Chicken</h4>
+                            <p class="card-text">Dinners</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-2 col-md-4 col-sm-6 mb-5">
+                    <div class="card" style="width:auto; min-height: 320px;">
+                        <img class="card-img-top"
+                            src="https://images.pexels.com/photos/102104/pexels-photo-102104.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+                            alt="Card image" style="width:100%">
+                        <div class="card-body">
+                            <h4 class="card-title">An Apple</h4>
+                            <p class="card-text">A literal apple</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-2 col-md-4 col-sm-6 mb-5">
+                    <div class="card" style="width:auto; min-height: 320px;">
+                        <img class="card-img-top"
+                            src="https://images.pexels.com/photos/12667658/pexels-photo-12667658.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+                            alt="Card image" style="width:100%">
+                        <div class="card-body">
+                            <h4 class="card-title">Penne with Beef Sauce</h4>
+                            <p class="card-text">Dinners</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-0 col-md-1"></div>
+            </div>
+
+        </div>
+
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js"></script>
+
+
+
+<!-- The Modal -->
+<div class="modal" id="myModal">
+    <div class="modal-dialog">
+      <div class="modal-content">
+  
+        <!-- Modal Header -->
+        <div class="modal-header">
+          <h4 class="modal-title">Modal Heading</h4>
+          <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+        </div>
+  
+        <!-- Modal body -->
+        <div class="modal-body">
+            <form>
+                <div class="mb-3">
+                    <label for="first-name" class="col-form-label">First Name:</label>
+                    <input type="text" class="form-control" id="first-name">
+                </div>
+                <div class="mb-3">
+                    <label for="last-name" class="col-form-label">Last Name</label>
+                    <input type="text" class="form-control" id="last-name">
+                </div>
+                <div class="mb-3">
+                    <label for="email" class="col-form-label">Email:</label>
+                    <input type="text" class="form-control" id="email">
+                </div>
+                <div class="mb-3">
+                    <label for="phone" class="col-form-label">Phone</label>
+                    <input type="text" class="form-control" id="phone">
+                </div>
+            </form>
+        </div>
+  
+        <!-- Modal footer -->
+        <div class="modal-footer">
+          <button type="button" class="btn btn-danger" data-bs-dismiss="modal">Close</button>
+          <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ"><button type="button" class="btn btn-primary">Submit</button></a>
+        </div>
+  
+      </div>
+    </div>
+  </div>
+
+<footer>
+    <div class="container my-5 py-5">
+        <h2>More Info:</h2>
+        
+        <div class="panel-group" id="accordion">
+          <div class="panel panel-default">
+            <div class="panel-heading">
+              <h4 class="panel-title">
+                <a data-toggle="collapse" data-parent="#accordion" href="#collapse1">Footer Notice 1</a>
+              </h4>
+            </div>
+            <div id="collapse1" class="panel-collapse collapse in">
+              <div class="panel-body">Lorem ipsum dolor sit amet, consectetur adipisicing elit,
+              sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+              quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</div>
+            </div>
+          </div>
+          <div class="panel panel-default">
+            <div class="panel-heading">
+              <h4 class="panel-title">
+                <a data-toggle="collapse" data-parent="#accordion" href="#collapse2">Footer Notice 2</a>
+              </h4>
+            </div>
+            <div id="collapse2" class="panel-collapse collapse">
+              <div class="panel-body">Lorem ipsum dolor sit amet, consectetur adipisicing elit,
+              sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+              quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</div>
+            </div>
+          </div>
+          <div class="panel panel-default">
+            <div class="panel-heading">
+              <h4 class="panel-title">
+                <a data-toggle="collapse" data-parent="#accordion" href="#collapse3">Footer Notice 3</a>
+              </h4>
+            </div>
+            <div id="collapse3" class="panel-collapse collapse">
+              <div class="panel-body">Lorem ipsum dolor sit amet, consectetur adipisicing elit,
+              sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+              quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</div>
+            </div>
+          </div>
+        </div> 
+      </div>
+</footer>
+
+</body>
+
+</html>
